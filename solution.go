@@ -1,7 +1,9 @@
 package solution
 
-import "fmt"
+import (
+	"github.com/kyokomi/emoji"
+)
 
 func GetMessage() string {
-	return fmt.Sprint("Hello :world_map:!")
+	return emoji.Sprint("Hello :world_map:!")
 }
